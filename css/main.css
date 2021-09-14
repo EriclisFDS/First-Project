@@ -151,7 +151,7 @@ button.slick-next {
 .slick-dots {
     margin: 0 auto;
     position: absolute;
-    left: 45.2%;
+    left: 45.5%;
     top: 600px;
 
 }
@@ -235,6 +235,7 @@ h1, h3{
 
 .bloco_imagens_texto {
     background-color: #eeeeee;
+    padding-bottom: 2em;
 }
 
 .bloco_imagens_texto:before {
@@ -245,7 +246,28 @@ h1, h3{
     background: #ffffff;
     background-image: url('/img/triangulo.png');
     background-repeat: no-repeat;
-    background-position: 48.5%;
+    background-position: 48.7%;
+}
+
+.col_4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    /*line-height: ;    alinhar altura*/
+
+}
+
+.col_4 img {
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    cursor: pointer;
+}
+
+.col_4 img:hover {
+    padding-top: 3em!important;
+    position: relative;
 }
  /*ul.slick-dots li.slick-active {
     background-color: #00bac6;
