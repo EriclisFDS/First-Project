@@ -249,6 +249,15 @@ h1, h3{
     background-position: 48.7%;
 }
 
+/*
+.bloco_imagens_texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+} */
+
 .col_4 {
     float: left;
     width: 25%;
@@ -269,6 +278,109 @@ h1, h3{
     padding-top: 3em!important;
     position: relative;
 }
+
+
+/*
+.bloco_imagem {
+    height: 170px;
+}
+
+.bloco_imagem img{
+    margin-top: 30px;
+}*/
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer h3 {
+    text-align: left;
+    
+}
+
+.footer p {
+    width: 245px;
+    color: #898989;
+}
+
+.clock {
+    color: #898989;
+}
+
+
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+
+}
+
+.palavras_destaque b {
+    font-size: larger;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.local:before {
+    content: '';
+    width: 13px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/local.png');
+    padding-left: 5px;
+}
+
+.email:before {
+    content: '';
+    width: 17px;
+    height: 13px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/email.png');
+    padding-left: 5px;
+}
+
+.tel:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/telefoneico.png');
+    padding-left: 5px;
+}
+
+.footer2 {
+    background-image: url('../img/footer2.png');
+    height: 86px;
+    color: #c1c1c1;
+    
+}
+
+.footer2 p {
+    margin-top: 37px;
+    width: 50%;
+    float: left;
+}
+
+.redes_sociais_footer {
+    width: 18%;   
+    float: right;
+}
+.redes_sociais_footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 13px;
+    list-style: none; /*para remover pontos na mao*/
+        
+}
+
  /*ul.slick-dots li.slick-active {
     background-color: #00bac6;
 }*/
